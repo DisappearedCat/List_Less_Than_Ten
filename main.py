@@ -1,6 +1,11 @@
 
 def less_than_ten(list):
-    pass
+    n_list = []
+    for i in list:
+        if i < 10:
+            n_list.append(i)
+
+    return n_list
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
